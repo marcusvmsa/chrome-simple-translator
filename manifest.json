@@ -1,0 +1,10 @@
+{
+  "name": "Simple Translate",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Translate your selections directly at context menu! Fast and simple, try it now!",
+  "permissions": ["contextMenus", "http://query.yahooapis.com/"],
+  "background": {
+    "scripts": ["jquery.min.js", "simple-translate.js"]
+  }
+}
